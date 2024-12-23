@@ -1,0 +1,7 @@
+[tool.mypy]
+ignore_missing_imports = true  # Ignore missing type stubs for third-party libraries
+check_untyped_defs = true      # Check bodies of untyped functions
+disallow_untyped_defs = false  # Allow functions without type annotations
+disallow_untyped_calls = false # Allow calls to untyped functions
+show_error_codes = true        # Show error codes in Mypy output
+strict = false                 # Disable strict mode for less rigid checks

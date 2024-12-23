@@ -1,0 +1,7 @@
+{
+    "ENV": "nonprod",
+    "APP_NAME": "MONGODB_PERFORMANCE_REPORTER",
+    "ATLAS_HOST" : "cloud.mongodb.com",
+    "ATLAS_API_BASE_PATH": "api/atlas/v1.0/",
+    "SENDER_EMAIL" : ""
+}
