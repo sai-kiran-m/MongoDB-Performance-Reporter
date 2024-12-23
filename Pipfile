@@ -7,10 +7,11 @@ name = "pypi"
 requests = "*"
 
 [dev-packages]
-pre-commit = "*"
 flake8 = "*"
 black = "*"
 mypy = "*"
+types-requests = "*"
+pre-commit = "*"
 
 [requires]
 python_version = "3.11"
