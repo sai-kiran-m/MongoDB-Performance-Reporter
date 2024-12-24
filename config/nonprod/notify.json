@@ -1,0 +1,30 @@
+{
+    "teamA": {
+        "email": "teamA@company.com",
+        "cc": [
+            "mongoadmin@company.com"
+        ],
+        "notify": true,
+        "namespace": [
+            "ClusterA.databaseA.collectionA",
+            "ClusterB.databaseB.collectionB",
+            "ClusterC.databaseC.collectionC",
+            "ClusterD.databaseD.*",
+            "ClusterE.*"
+        ]
+    },
+    "teamB": {
+        "email": "teamB@company.com",
+        "cc": [
+            "mongoadmin@company.com"
+        ],
+        "notify": true,
+        "namespace": [
+            "ClusterA.databaseA.collectionA",
+            "ClusterB.databaseB.collectionB",
+            "ClusterC.databaseC.collectionC",
+            "ClusterD.databaseD.*",
+            "ClusterE.*"
+        ]
+    }
+}
