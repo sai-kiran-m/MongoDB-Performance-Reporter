@@ -1,0 +1,10 @@
+{
+    "clusterA": {
+        "generate_reports": true,
+        "project_id": "sampleProjectIdValue"
+    },
+    "clusterB": {
+        "generate_reports": true,
+        "project_id": "sampleProjectIdValue"
+    }
+}
