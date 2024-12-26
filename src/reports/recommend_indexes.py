@@ -9,4 +9,8 @@ class RecommendIndexes(ReportBase):
         self.atlas_client = atlas_client
 
     def report(self):
+        # for each team parse through their namespace
+        # intellengent parsing
+            # identity cluster
+            # pull suggested indexes on the cluster with its primary shard details 
         return "test pass"
