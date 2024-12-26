@@ -12,23 +12,23 @@ Teams with collections on MongoDB Atlas often require timely performance insight
 **In Progress**
 
 ## Features
-### 1. Recommended Indices
-- **Purpose**: Suggests indices to improve query performance based on collection usage patterns identified by MongoDB Atlas.
+### 1. Recommended Indexes
+- **Purpose**: Suggests indexes to improve query performance based on collection usage patterns identified by MongoDB Atlas.
 - **Functionality**:
   - Detects collections with high query usage.
-  - Provides a list of indices that are recommended to reduce query latency.
+  - Provides a list of indexes that are recommended to reduce query latency.
   - Enables database administrators and developers to update collections for optimized performance.
 
 ## Upcoming Features
 - **Email Scheduling**: Automatically send performance reports to relevant teams at predefined intervals.
 - **Reporting Slow Queries**: Send reports to teams of their slow running queries.
-- **Unused Indices**: Send reports to team of their unused indices, these unused indices takes up unncessary space on clusters and delay cluster recreation/update.
+- **Unused indexes**: Send reports to team of their unused indexes, these unused indexes takes up unncessary space on clusters and delay cluster recreation/update.
 - **Integration with CI/CD Pipelines**: Seamlessly incorporate performance recommendations into deployment workflows.
 
 ## How to Use
 1. **Setup**: Clone the repository and configure your MongoDB Atlas credentials.
 2. **Run the Tool**: Execute the performance reporter script to generate insights.
-3. **Apply Recommendations**: Review and implement suggested indices for improved query performance.
+3. **Apply Recommendations**: Review and implement suggested indexes for improved query performance.
 
 ## Roadmap
 - Add email notification functionality.

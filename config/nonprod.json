@@ -1,0 +1,11 @@
+{
+    "ENV": "nonprod",
+    "APP_NAME": "MONGODB_PERFORMANCE_REPORTER",
+    "ATLAS_HOST" : "cloud.mongodb.com",
+    "ATLAS_API_BASE_PATH": "api/atlas/v1.0/",
+    "SENDER_EMAIL" : "",
+    "ROUTES": {
+        "SUGGESTED_INDEXES": "groups/[project_id]/processes/[primary_shard]/performanceAdvisor/suggestedIndexes",
+        "CLUSTER_NAME": "groups/[project_id]/clusters/[cluster_name]"
+    }
+}
