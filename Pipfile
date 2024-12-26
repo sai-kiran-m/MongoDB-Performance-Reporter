@@ -10,8 +10,8 @@ requests = "*"
 flake8 = "*"
 black = "*"
 mypy = "*"
-types-requests = "*"
 pre-commit = "*"
+types-requests = "*"
 
 [requires]
 python_version = "3.11"

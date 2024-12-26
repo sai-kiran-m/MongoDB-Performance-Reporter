@@ -1,11 +1,11 @@
 import argparse
 
-from reports.factories.recommend_indices_factory import RecommendIndicesFactory
+from reports.factories.recommend_indexes_factory import RecommendIndexesFactory
 from reports.factories.report_factory import ReportFactoryBase
 from reports.report_base import ReportBase
 from shared.utils.get_config import Config
 
-FACTORY_MAP = {"recommend_indices": RecommendIndicesFactory}
+FACTORY_MAP = {"recommend_indexes": RecommendIndexesFactory}
 
 parser = argparse.ArgumentParser(
     prog="A Mongodb Performance Reporter App",
