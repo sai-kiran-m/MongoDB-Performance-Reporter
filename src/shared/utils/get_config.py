@@ -1,6 +1,10 @@
 import json
 import os
 
+from shared.utils.logger import get_logger
+
+logger = get_logger(__name__)
+
 CONFIG_FOLDER = os.path.join(os.path.dirname(__file__), "../../../config")
 
 
