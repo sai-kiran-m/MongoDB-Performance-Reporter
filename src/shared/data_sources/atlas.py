@@ -2,6 +2,9 @@ import requests
 from requests.auth import HTTPDigestAuth
 
 from shared.utils.get_config import Config
+from shared.utils.logger import get_logger
+
+logger = get_logger(__name__)
 
 
 class MongodbAtlasClient:

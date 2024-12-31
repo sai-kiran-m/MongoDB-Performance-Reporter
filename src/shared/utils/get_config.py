@@ -1,14 +1,18 @@
 import json
 import os
 
+from shared.utils.logger import get_logger
+
+logger = get_logger(__name__)
+
 CONFIG_FOLDER = os.path.join(os.path.dirname(__file__), "../../../config")
 
 
 class Config:
     def __init__(self):
         env = os.getenv("ENV") or "nonprod"
-        file_name = f"{env}.json"
-        self.config_file_path = os.path.join(CONFIG_FOLDER, file_name)
+        file_path = f"{env}/app.json"
+        self.config_file_path = os.path.join(CONFIG_FOLDER, file_path)
         self._load_config()
 
     def _load_config(self):
